@@ -9,7 +9,6 @@
 
 <script setup>
 import Sidebar from '../components/ui/sidebar/Sidebar.vue';
-
 </script>
 
 <style lang="scss" scoped></style>
