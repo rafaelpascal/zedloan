@@ -11,22 +11,22 @@ const routes = [
       component: Applayout,
       children: [
         {
-          path: '',
+          path: '/home',
           name: 'Home',
           component: Home
         },
         {
-          path: 'profile',
+          path: '/profile',
           name: 'Profile',
           component: Profile
         },
         {
-          path: 'offers',
+          path: '/offers',
           name: 'Loan',
           component: Loan
         },
         {
-          path: 'accounts',
+          path: '/accounts',
           name: 'Accounts',
           component: Accounts
         },
