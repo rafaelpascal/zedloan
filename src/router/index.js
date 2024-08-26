@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
-import Profile from '../views/Profile.vue';
-import Loan from '../views/Loan.vue';
-import Accounts from '../views/Accounts.vue';
+import Home from '../Views/Home.vue';
+import Profile from '../Views/Profile.vue';
+import Loan from '../Views/Loan.vue';
+import Accounts from '../Views/Accounts.vue';
 import Applayout from '../components/ui/layout/Applayout.vue'; 
 
 const routes = [
