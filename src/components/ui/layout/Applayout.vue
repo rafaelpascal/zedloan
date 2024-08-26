@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-full">
+    <div class="flex w-full overflow-y-auto">
         <!-- <Sidebar class="bg-black h-full w-[20%]" /> -->
         <router-view />
     </div>
