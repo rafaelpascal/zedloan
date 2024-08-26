@@ -130,7 +130,7 @@
                         <input type="text" v-model="additionalDetails3" placeholder="Additional Details"
                             class="h-full rounded-[12px] px-4 outline-none w-full">
                     </div>
-                    <div class="w-full">
+                    <div class="w-full flex justify-center">
                         <button type="submit"
                             class="w-full lg:w-[427px] h-[50px] bg-blue-500 my-4 rounded-[12px] text-white font-bold">Submit</button>
                     </div>
