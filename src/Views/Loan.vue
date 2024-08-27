@@ -533,8 +533,6 @@
 
 import { ref, watch } from 'vue';
 import Sidebar from '../components/ui/sidebar/Sidebar.vue';
-import ProgressBar from '../components/ui/progressbar/ProgressBar.vue'
-import formProgressBar from '../components/ui/progressbar/formProgressBar.vue';
 import createdModal from '../components/ui/modal/createdModal.vue';
 
 const isSidebarOpen = ref(false);
