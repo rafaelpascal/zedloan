@@ -7,11 +7,11 @@ import Applayout from '../components/ui/layout/Applayout.vue';
 
 const routes = [
     {
-      path: '/',
+      path: '/home',
       component: Applayout,
       children: [
         {
-          path: '/',
+          path: '/home',
           name: 'Home',
           component: Home
         },
