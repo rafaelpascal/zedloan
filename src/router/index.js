@@ -3,6 +3,7 @@ import Home from '../Views/Home.vue';
 import Profile from '../Views/Profile.vue';
 import Loan from '../Views/Loan.vue';
 import Accounts from '../Views/Accounts.vue';
+import AdminHome from '../Views/AdminHome.vue';
 import Applayout from '../components/ui/layout/Applayout.vue'; 
 
 const routes = [
@@ -29,6 +30,11 @@ const routes = [
           path: 'accounts',
           name: 'Accounts',
           component: Accounts
+        },
+        {
+          path: 'admin/home',
+          name: 'AdminHome',
+          component: AdminHome
         },
       ]
     }
