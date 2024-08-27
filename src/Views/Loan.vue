@@ -381,7 +381,8 @@
                                         </h2>
                                     </div>
                                     <button
-                                        class="w-full my-3 flex justify-between items-center h-[66.11px] px-6 bg-[#ECF3FF] rounded-[12px]">
+                                        class="w-full my-3 flex justify-between items-center h-[66.11px] px-6 bg-[#ECF3FF] rounded-[12px]"
+                                        @click="handlenewAccount">
                                         <div class="flex justify-start items-start gap-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="2" stroke="currentColor" class="w-6 h-6 text-[#000]">
@@ -437,7 +438,7 @@
                 <form @submit.prevent="handleSubmit"
                     class="w-full lg:w-[541px] rounded-[12px] border-[1px] border-[#8F8F8F] h-[751px]">
                     <div class="h-[731px] px-6 w-full overflow-y-auto">
-                        <button class="mb-8 mt-4 flex justify-start items-center gap-3">
+                        <button class="mb-8 mt-4 flex justify-start items-center gap-3" @click="handleCloseNewAccount">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -536,7 +537,6 @@ import Sidebar from '../components/ui/sidebar/Sidebar.vue';
 import createdModal from '../components/ui/modal/createdModal.vue';
 
 const isSidebarOpen = ref(false);
-const progress = ref(0);
 const formsubmitted = ref(false);
 const loanreviewisActive = ref(false);
 const account = ref(false);
@@ -576,6 +576,10 @@ const handleformSubmit = () => {
 const handlenewAccount = () => {
     account.value = false
     newAccount.value = true
+}
+const handleCloseNewAccount = () => {
+    account.value = true
+    newAccount.value = false
 }
 const handleremoveoverlay = () => {
     showOverlay.value = false
