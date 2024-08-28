@@ -4,7 +4,7 @@
             <Sidebar class="bg-black h-full" />
         </div> -->
         <div :class="[
-            'absolute h-[100%] z-10 bg-black transition-all duration-300',
+            'absolute h-[100%] z-20 bg-black transition-all duration-300',
             isSidebarOpen ? 'w-[70%] lg:w-[0px] flex' : 'lg:w-[304px] lg:flex hidden'
         ]">
             <Sidebar />
