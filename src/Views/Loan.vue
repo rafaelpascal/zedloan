@@ -513,8 +513,10 @@
         <!-- Modal -->
         <createdModal :show="isCreated" @update:show="isCreated = $event">
             <div class="flex flex-col justify-between gap-10 items-center">
-                <h2 class="font-bold text-[50px] font-Montserrat text-[#0961E3]">Congratulations!</h2>
-                <p class="font-normal text-[20px] font-Montserrat text-[#000] w-full lg:w-[70%] text-center">Your loan
+                <h2 class="font-bold text-[30px] lg:text-[50px] font-Montserrat text-[#0961E3]">Congratulations!</h2>
+                <p
+                    class="font-normal text-[16px] lg:text-[20px] font-Montserrat text-[#000] w-full lg:w-[70%] text-center">
+                    Your loan
                     application
                     has
                     been sent.
